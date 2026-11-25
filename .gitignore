@@ -1,0 +1,37 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+.env.*
+.DS_Store
+
+# Datasets and outputs
+/datasets/
+/result_model_files/
+checkpoints/
+lightning_logs/
+wandb/
+outputs/
+results/
+logs/
+*.log
+
+# Model weights, serialized tensors, and feature caches
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.onnx
+*.tflite
+*.gguf
+*.arrow
